@@ -16,23 +16,6 @@ const About = () => {
           <div className="space-y-8">
             <Card>
               <CardContent className="pt-6">
-                <h2 className="text-2xl font-semibold mb-4">Project Overview</h2>
-                <p className="mb-4">
-                  AirAware is a final year project focused on using machine learning and artificial 
-                  intelligence to predict air quality with greater accuracy than traditional methods. 
-                  By analyzing historical data patterns and incorporating real-time measurements, 
-                  the system provides both current air quality information and predictive forecasts.
-                </p>
-                <p>
-                  The project aims to help individuals make informed decisions about their outdoor 
-                  activities, assist city planners in understanding pollution patterns, and provide 
-                  researchers with valuable insights into air quality trends.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="pt-6">
                 <h2 className="text-2xl font-semibold mb-4">Technology Stack</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
